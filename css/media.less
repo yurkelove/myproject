@@ -1,0 +1,455 @@
+/*==========  Desktop First Method  ==========*/
+@color_main: #5bc9aa;
+@color_hover:#52b3d9;
+@color_base: #111111;
+@color_fff:#FFFF;
+@color_opacity:#08080b;
+@color_666:#666666;
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+  #header {
+    height: 80px;
+    background-color: @color_base;
+    position: absolute;
+  }
+  #header.fixed{
+    border-bottom: 0!important;
+  }
+
+  .home-section {
+    .header-content {
+      padding-top: 0;
+      padding-bottom: 0;
+      border-bottom: 0;
+    }
+    .container{
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+
+  .navigation {
+    height: 80px;
+    .navigation-menu {
+      display: block;
+      width: 100% !important;
+      text-align: center !important;
+      .primary-nav {
+        top: 100%;
+        left: 0;
+        right: 0;
+        position: absolute;
+        display: none;
+        background-color: @color_base;
+        li {
+          border-bottom: 1px solid #FFFFFF;
+          padding-top: 10px!important;
+          padding-bottom: 10px!important;
+          display: block !important;
+          &:last-child{
+            border-bottom: 0;
+          }
+          &:first-child{
+            border-top:1px solid @color_main;
+          }
+        }
+      }
+    }
+  }
+  .navigation-bar-logo {
+    float: left;
+    display: block;
+    padding-left: 15px;
+    .logo {
+      line-height: 80px;
+    }
+    img {
+      height: 35px;
+    }
+  }
+
+  .mobile-menu {
+
+    .mnu{
+      line-height: 80px;
+    }
+    padding-right: 15px;
+    display: block;
+    float: right;
+    a {
+      font-family: 'Roboto',sans-serif;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+  }
+
+  .home-section-text{
+    h1{
+      font-size: 62px;
+    }
+    p{
+      font-size:28px!important;
+    }
+    .social-section{
+
+    }
+  }
+  .my-bio-box{
+    img{
+
+    }
+  }
+
+  /*Skills-section*/
+  .loading-skills-items{
+    .loading-item{
+      .c100{
+        font-size:160px!important;
+      }
+    }
+    p{
+      padding-bottom: 30px;
+      font-size:16px!important;
+    }
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+   /*Home Section*/
+
+    .btn-top{
+    right: 20px!important;
+    width: 40px!important;
+    height: 40px!important;
+    }
+
+    .home-section-text{
+      h1{
+        font-size: 42px!important;
+      }
+      p{
+        font-size:24px!important;
+      }
+      .social-section{
+        .social-icons-list{
+          width: 100%;
+          padding: 0!important;
+          margin: 0;
+          text-align: center;
+          .social-icon{
+            margin-right: 7px!important;
+            width: 35px!important;
+            height: 35px!important;
+            font-size: 14px !important;
+            text-align: center!important;
+            line-height: 35px!important;
+        }
+
+        }
+      }
+      .btn-home{
+        .btn{
+         font-size:14px!important;
+        }
+      }
+    }
+
+    .about-section,.services-section,.skills-section,.portfolio-section,.contact-section {
+      padding: 50px 0 !important;
+    }
+      .section-title-line{
+
+      }
+
+      .personal-info-box{
+        .color-title{
+          font-size:16px!important;
+        }
+        p{
+          font-size:12px!important;
+
+        }
+      }
+      .social-hobby{
+        padding-top: 10px;
+        .social-hobby-list{
+          padding: 0;
+          margin: 0;
+          .social-hobby-list-items{
+            &:last-child{
+              padding-bottom: 5px;
+              margin-right:  0;
+            }
+          }
+        }
+      }
+
+
+      .my-bio-box{
+        padding-top: 30px !important;
+        img{
+          width: 40%!important;
+        }
+        display:flex;
+        flex-direction: column;
+        flex-wrap:wrap;
+        justify-content: center;
+
+        .element-1{
+          order:1;
+          .my-photo-box{
+            margin-bottom: 50px;
+          }
+        }
+        .element-2{
+          order:2;
+        }
+      .personal-info-section-header-title{
+        font-size:20px!important;
+      }
+    }
+
+    /*Services section*/
+  .services-elements{
+    padding-top: 30px!important;
+    h3{
+        font-size:20px!important;
+    }
+    p{
+      margin-bottom: 20px;
+        font-size:14px!important;
+    }
+
+  }
+
+  /*POrftolio-section*/
+  .iso-nav{
+    ul,li{
+      padding: 0;
+      margin: 0;
+    }
+    text-align: left;
+  }
+  .main-iso{
+    padding-top: 30px;
+  }
+  /*Skills-section*/
+  .loading-skills-items{
+    padding-top: 50px !important;
+    .loading-item{
+      .c100{
+        font-size:150px!important;
+      }
+    }
+    p{
+      padding-bottom: 30px;
+      font-size:16px;
+    }
+  }
+  /*Contact-section*/
+  .contact-section,.portfolio-section,.about-section,.services-section,.skills-section{
+    h2{
+      font-size:28px;
+    }
+  }
+  .contacts-icons-list{
+    .contact-icon{
+      .icon-list-box{
+      }
+      p{
+        padding-bottom: 15px!important;
+      }
+    }
+
+
+  }
+  .comment-post{
+    height: 130px!important;
+  }
+
+
+
+
+
+    .title-phrase{
+      font-size: 20px !important;
+    }
+  }
+
+
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    
+   
+    .btn-top{
+    right: 20px!important;
+    width: 40px!important;
+    height: 40px!important;
+    }
+    
+  .my-bio-box{
+    img{
+      width: 55%!important;
+    }
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+
+    .element-1{
+     order:1;
+      .my-photo-box{
+        margin-bottom: 50px;
+      }
+    }
+    .element-2{
+      order:2;
+    }
+
+
+
+    .social-hobby-list{
+      .social-hobby-list-items{
+        &:last-child{
+          float:left;
+        }
+      }
+    }
+
+    .personal-info-section-header-title{
+      font-size:18px!important;
+    }
+  }
+  /*POrftolio-section*/
+  .iso-nav{
+    ul,li{
+      margin: 0;
+      text-align: center!important;
+      font-size:14px!important;
+      padding: 10px 11px!important;
+    }
+
+  }
+
+  .loading-skills-items{
+    p{
+      font-size:16px!important;
+    }
+    .loading-item{
+      .с100{
+        font-size:150px!important;
+      }
+    }
+
+
+  }
+  .comment-post{
+    margin-bottom: 30px!important;
+  }
+
+  .btn-home{
+    .btn{
+      font-size:14px!important;
+    }
+  }
+
+
+  .social-hobby{
+    padding-left: 0!important;
+
+  }
+
+  /*FOOTER*/
+  /*FOOTER-section*/
+  .footer-main{
+    .footer{
+      background-color: black;
+      .ftr-items{
+        line-height: unset;
+        padding: 20px 0;
+
+      .ftr-text{
+        width: 100%;
+        padding: 0!important;
+        margin: 0;
+        text-align: center;
+        padding-bottom: 10px!important;
+      }
+      .footer-icons ul{
+        text-align: center;
+      }
+      .footer-icons {
+        padding: 0 !important;
+        margin: 0;
+        text-align: center;
+
+        a {
+          margin-right: 7px !important;
+          width: 35px !important;
+          height: 35px !important;
+          font-size: 14px !important;
+          text-align: center !important;
+          line-height: 35px !important;
+
+        }
+      }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

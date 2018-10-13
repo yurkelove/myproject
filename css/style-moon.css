@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon/fonts/icomoon.eot?flub0d');
+  src:  url('../fonts/icomoon/fonts/icomoon.eot?flub0d#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon/fonts/icomoon.ttf?flub0d') format('truetype'),
+    url('../fonts/icomoon/fonts/icomoon.woff?flub0d') format('woff'),
+    url('../fonts/icomoon/fonts/icomoon.svg?flub0d#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-adobe-photoshop:before {
+  content: "\e900";
+}
+.icon-php-programming-language:before {
+  content: "\e901";
+}
+.icon-gears-in-bald-head-side-view:before {
+  content: "\e902";
+}
+.icon-hand-shake:before {
+  content: "\e903";
+}
+.icon-computer-2:before {
+  content: "\e904";
+}
+.icon-computer-1:before {
+  content: "\e905";
+}
+.icon-people-9:before {
+  content: "\e906";
+}
+.icon-program:before {
+  content: "\e907";
+}
+.icon-sketch:before {
+  content: "\e908";
+}
+.icon-css-3:before {
+  content: "\e909";
+}
+.icon-apple:before {
+  content: "\e90a";
+}
+.icon-html-5:before {
+  content: "\e90b";
+}
+.icon-dumbbell:before {
+  content: "\e90c";
+}
+.icon-basketball:before {
+  content: "\e90d";
+}
+.icon-diet:before {
+  content: "\e90e";
+}
+.icon-cart:before {
+  content: "\e90f";
+}
+.icon-shopping-cart:before {
+  content: "\e910";
+}
+.icon-phone-ringing:before {
+  content: "\e911";
+}
+.icon-phone:before {
+  content: "\e912";
+}
+.icon-email:before {
+  content: "\e913";
+}
+.icon-envelope:before {
+  content: "\e914";
+}
+.icon-people-8:before {
+  content: "\e915";
+}
+.icon-people-7:before {
+  content: "\e916";
+}
+.icon-people-6:before {
+  content: "\e917";
+}
+.icon-people-5:before {
+  content: "\e918";
+}
+.icon-people-4:before {
+  content: "\e919";
+}
+.icon-people-3:before {
+  content: "\e91a";
+}
+.icon-people-2:before {
+  content: "\e91b";
+}
+.icon-people-1:before {
+  content: "\e91c";
+}
+.icon-computer:before {
+  content: "\e91d";
+}
+.icon-shopping-support-online:before {
+  content: "\e91e";
+}
+.icon-graduation:before {
+  content: "\e91f";
+}
+.icon-people:before {
+  content: "\e920";
+}
+.icon-school:before {
+  content: "\e921";
+}
+.icon-computer2:before {
+  content: "\e926";
+}
+.icon-multimedia:before {
+  content: "\e922";
+}
+.icon-web-design:before {
+  content: "\e923";
+}
+.icon-html:before {
+  content: "\e924";
+}
+.icon-responsive-design-symbol:before {
+  content: "\e925";
+}

@@ -94,6 +94,11 @@
     right: 20px!important;
     width: 40px!important;
     height: 40px!important;
+    line-height: 40px;
+  }
+  .btn-top i{
+    text-align: center;
+    margin: 0 auto;
   }
   .thumb-container{
     margin:0 auto!important;

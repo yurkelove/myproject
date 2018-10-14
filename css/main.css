@@ -56,29 +56,29 @@ p {
   padding: 0;
 }
 h1 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 72px;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-size: 68px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 36px;
   font-weight: 600;
   text-transform: uppercase;
 }
 h3 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
 h4 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 600;
 }
 h5 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -196,7 +196,7 @@ h5 {
 }
 .home-section .home-section-text p {
   font-size: 32px;
-  font-family: Raleway, sans-serif;
+  font-family: Roboto, sans-serif;
   font-weight: 400;
 }
 .home-section .home-section-text .social-section {
@@ -390,7 +390,7 @@ h5 {
   color: #5bc9aa;
   font-size: 18px;
   display: inline-block;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto' sans-serif;
   font-weight: 600;
 }
 .about-section .my-bio-box .personal-info-box p {

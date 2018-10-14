@@ -95,6 +95,9 @@
     width: 40px!important;
     height: 40px!important;
   }
+  .thumb-container{
+    margin:0 auto!important;
+  }
   .home-section-text h1 {
     font-size: 42px!important;
   }
@@ -229,8 +232,8 @@
     flex-wrap: wrap;
     justify-content: center;
   }
-  .portfolio-section .thumb-container{
-    margin:0 auto;
+  .thumb-container{
+    margin:0 auto!important;
   }
   .my-bio-box img {
     width: 55%!important;

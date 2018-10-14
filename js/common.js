@@ -1,5 +1,12 @@
+
+
+
 $(document).ready(function() {
 
+
+    
+    
+    
 
     // Создания кнопки на верх
         var $btnTop = $('.btn-top')// Создали переменную для класса топ
@@ -81,22 +88,6 @@ $(document).ready(function() {
 
 
 
-	//Плавный скролл до блока .div по клику на .scroll
-	//Документация: https://github.com/flesler/jquery.scrollTo
-	$("a.scroll").click(function() {
-		$.scrollTo($(".div"), 800, {
-			offset: -90
-		});
-	});
-	//Скролл до id, указанного в hash URL
-	var elem = window.location.hash;
-	if(elem) {
-		$.scrollTo(elem, 800, {
-			offset: -90
-		});
-	};
-
-
 
     //Mobile MENU
 	$(document).ready(function(){
@@ -139,15 +130,5 @@ $(document).ready(function() {
     modalBtn();
     
 
-	//Кнопка "Наверх"
-	//Документация:
-	//http://api.jquery.com/scrolltop/
-	//http://api.jquery.com/animate/
-	$("#top").click(function () {
-		$("body, html").animate({
-			scrollTop: 0
-		}, 800);
-		return false;
-	});
 
 });

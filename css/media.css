@@ -92,9 +92,6 @@
   /*Home Section*/
   .btn-top {
     right: 20px!important;
-    width: 40px!important;
-    height: 40px!important;
-    line-height: 40px;
   }
   .btn-top i{
     text-align: center;
@@ -228,9 +225,7 @@
 @media only screen and (max-width: 480px) {
   .btn-top {
     right: 20px!important;
-    width: 40px!important;
-    height: 40px!important;
-  }
+   }
   .my-bio-box {
     display: flex;
     flex-direction: column;

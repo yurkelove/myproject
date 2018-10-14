@@ -72,28 +72,12 @@ $(document).ready(function() {
     });
 
 
-  
-
-	//Stellar - Parallax Plugin
-	//Документация: https://github.com/markdalgleish/stellar.js
-	//HTML: <div class="parallax" data-stellar-background-ratio="0.5"></div>
-	$.stellar({
-		horizontalScrolling: false,
-		verticalOffset: 40
-	});
-
-	
-
 	//Попап менеджер FancyBox
 	//Документация: http://fancybox.net/howto
 	//<a class="fancybox"><img src="image.jpg" /></a>
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
 
-//	//Навигация по Landing Page
-//	//$(".top_mnu") - это верхняя панель со ссылками.
-//	//Ссылки вида <a href="#contacts">Контакты</a>
-//	$(".top_mnu").navigation();
 
 
 
@@ -154,17 +138,6 @@ $(document).ready(function() {
     
     modalBtn();
     
-  
-
-
-//window.onclick = function(event){
-//   if(event.target == modal){
-//        modal.style.display = "none";
-//    }
-//}
-
-
-
 
 	//Кнопка "Наверх"
 	//Документация:

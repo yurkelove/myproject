@@ -95,7 +95,8 @@
 @media only screen and (max-width: 768px) {
   /*Home Section*/
      .home-section{
-        background-image: url("../img/bg-mobile.jpg")!important;
+         background-image: none!important;
+        background-color: black!important;
          max-width: 100%!important;
         max-height: 100%!important;
     }

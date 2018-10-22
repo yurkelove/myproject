@@ -110,6 +110,8 @@ h5 {
   display: table-cell;
   vertical-align: middle;
 }
+
+
 /*Home-Section*/
 .home-section {
   -moz-background-size: cover;
@@ -119,6 +121,7 @@ h5 {
   background-image: url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: top center;
+    background-repeat: no-repeat;
   height: 100%;
   width: 100%;
   /*HEADER-FIXED-STYLE*/

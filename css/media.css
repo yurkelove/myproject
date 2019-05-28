@@ -6,7 +6,6 @@
     .home-section{
         max-width: 100%;
         max-height: 100%;
-        background-image: url("../img/bg-mobile.jpg");
     }
   #header {
     height: 80px;
@@ -96,8 +95,16 @@
 @media only screen and (max-width: 768px) {
   /*Home Section*/
   .home-section{
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url("../img/bg-mobile.png");
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
   }
   .btn-top {
     right: 20px!important;
@@ -234,8 +241,16 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .home-section{
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url("../img/bg-mobile.png");
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
   }
   .btn-top {
     right: 20px!important;

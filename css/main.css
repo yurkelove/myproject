@@ -122,9 +122,6 @@ h5 {
   background-attachment: fixed;
   background-position: top center;
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   height: 100vh;
   width: 100vw;
   /*HEADER-FIXED-STYLE*/

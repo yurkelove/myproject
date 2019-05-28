@@ -96,9 +96,8 @@
 @media only screen and (max-width: 768px) {
   /*Home Section*/
   .home-section{
-    max-width: 100%!important;
+    max-width: 100%;
     height: auto;
-    background-image: url("../img/bg-mobile.jpg");
   }
   .btn-top {
     right: 20px!important;
@@ -235,9 +234,8 @@
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
   .home-section{
-    max-width: 100%!important;
+    max-width: 100%;
     height: auto;
-    background-image: url("../img/bg-mobile.jpg");
   }
   .btn-top {
     right: 20px!important;

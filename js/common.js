@@ -1,13 +1,4 @@
-
-
-
 $(document).ready(function() {
-
-
-    
-    
-    
-
     // Создания кнопки на верх
         var $btnTop = $('.btn-top')// Создали переменную для класса топ
         $(window).on("scroll", function () { // Отслеживаем скролл что б при скроле кнопка появляляся
@@ -85,10 +76,6 @@ $(document).ready(function() {
 	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
 	$(".fancybox").fancybox();
 
-
-
-
-
     //Mobile MENU
 	$(document).ready(function(){
 			var touch = $('.mobile-menu');
@@ -110,8 +97,6 @@ $(document).ready(function() {
 
 
 	//Modal
-
-    
     function modalBtn(){
         
         var modal = document.getElementById('myModal');

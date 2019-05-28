@@ -392,14 +392,14 @@ h5 {
 .about-section .my-bio-box .personal-info-box .color-title {
   color: #5bc9aa;
   font-size: 18px;
+  font-family: 'Roboto', sans-serif;
   display: inline-block;
-  font-family: 'Raleway', sans-serif;
   font-weight: 600;
 }
 .about-section .my-bio-box .personal-info-box p {
   display: inline-block;
   font-size: 16px;
-  font-family: Roboto, sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #111111;
 }
 .about-section .my-bio-box .personal-info-box .social-hobby {

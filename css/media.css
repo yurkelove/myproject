@@ -94,12 +94,10 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
   /*Home Section*/
-     .home-section{
-         background-image: none!important;
-        background-color: black!important;
-         max-width: 100%!important;
-        max-height: 100%!important;
-    }
+  .home-section{
+    max-width: 100%!important;
+    max-height: 100%!important;
+  }
   .btn-top {
     right: 20px!important;
   }
@@ -175,6 +173,7 @@
   }
   .my-bio-box .element-2 {
     order: 2;
+    width: 100%;
   }
   .my-bio-box .personal-info-section-header-title {
     font-size: 20px!important;
@@ -260,6 +259,7 @@
   }
   .my-bio-box .element-2 {
     order: 2;
+    width: 100%;
   }
   .my-bio-box .social-hobby-list .social-hobby-list-items:last-child {
     float: left;

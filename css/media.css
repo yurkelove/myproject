@@ -97,7 +97,7 @@
   /*Home Section*/
   .home-section{
     max-width: 100%!important;
-    max-height: 100%!important;
+    height: auto;
     background-image: url("../img/bg-mobile.jpg");
   }
   .btn-top {
@@ -234,11 +234,11 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-     .home-section{
-        max-width: 100%!important;
-        max-height: 100%!important;
-        background-image: url("../img/bg-mobile.jpg");
-    }
+  .home-section{
+    max-width: 100%!important;
+    height: auto;
+    background-image: url("../img/bg-mobile.jpg");
+  }
   .btn-top {
     right: 20px!important;
    }

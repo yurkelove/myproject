@@ -121,9 +121,12 @@ h5 {
   background-image: url("../img/bg.jpg");
   background-attachment: fixed;
   background-position: top center;
-    background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 100vh;
+  width: 100vw;
   /*HEADER-FIXED-STYLE*/
 }
 .home-section .header-content {

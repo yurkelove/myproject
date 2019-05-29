@@ -41,15 +41,6 @@
   .logo{
     width: 45px;
   }
-  .btn-top {
-    right: 20px!important;
-    width: 40px!important;
-    height: 40px!important;
-  }
-  .btn-top i{
-    text-align: center;
-    margin: 0 auto;
-  }
   .thumb-container{
     margin:0 auto!important;
   }
@@ -176,9 +167,6 @@
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-  .btn-top {
-    right: 20px!important;
-   }
   .my-bio-box {
     display: flex;
     flex-direction: column;

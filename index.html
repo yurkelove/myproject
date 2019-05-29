@@ -11,9 +11,9 @@
     <link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css"/>
     <link rel="stylesheet" href="css/fonts.css"/>
     <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css"/>
+    <link rel="stylesheet" href="css/main-mini.css"/>
     <link rel="stylesheet" href="css/circle.css"/>
-    <link rel="stylesheet" href="css/media.css"/>
+    <link rel="stylesheet" href="css/media-mini.css"/>
     <link rel="stylesheet" href="css/style-moon.css"/>
     <link rel="stylesheet" href="css/animate.css">
     <!-- ISOTOPE -->
@@ -23,7 +23,6 @@
 
 
 <section id="home" class="home-section">
-
     <header id="header">
         <div class="container">
             <div class="header-content">
@@ -31,27 +30,26 @@
                     <div class="navigation-bar-logo">
                         <a class="logo" href=""><img src="img/logo.png"></a>
                     </div>
-                    <div class="mobile-menu">
-                        <div class="mnu hidden-md hidden-lg">
-                            <a href="#" id="touch-menu ">Меню <span class="burger-menu"><i
-                                    class="fas fa-bars"></i></span></a>
-                        </div>
+                   
+                <div class="menu">
+                    <div class="menu__icon">
+                        <a href="#" class="menu-btn">
+                        <span class="menu-btn-icon"></span>
+                        </a>
                     </div>
-                    <div class="navigation-menu">
-                        <ul class="primary-nav clearfix">
-                            <li class="active-home"><a href="#home"><span class="nav-item-underline"></span>Главная</a>
-                            </li>
-                            <li><a href="#about"><span class="nav-item-underline"></span>О себе</a></li>
-                            <li><a href="#services"><span class="nav-item-underline"></span>Услуги</a></li>
-                            <li><a href="#skills"><span class="nav-item-underline"></span>Навыки</a></li>
-                            <li><a href="#portfolio"><span class="nav-item-underline"></span>Портфолио</a></li>
-                            <li><a href="#contact"><span class="nav-item-underline"></span>Контакты</a></li>
-                        </ul>
+                    <div class="menu__links">
+                    <ul class="primary-nav clearfix">
+                        <li class="active-home"><a href="#home"><span class="nav-item-underline"></span>Главная</a>
+                        </li>
+                        <li><a href="#about"><span class="nav-item-underline"></span>О себе</a></li>
+                        <li><a href="#services"><span class="nav-item-underline"></span>Услуги</a></li>
+                        <li><a href="#skills"><span class="nav-item-underline"></span>Навыки</a></li>
+                        <li><a href="#portfolio"><span class="nav-item-underline"></span>Портфолио</a></li>
+                        <li><a href="#contact"><span class="nav-item-underline"></span>Контакты</a></li>
+                    </ul>
                     </div>
-
-
+                </div>
                 </nav>
-
             </div>
         </div>
     </header>
@@ -111,7 +109,7 @@
                     <div class="personal-info-section-header">
                         <span class="personal-info-section-header-icon my-icon"> <span
                                 class="icon-gears-in-bald-head-side-view"></span></span>
-                        <h3 class="personal-info-section-header-title">КУЗЬКИН ЮРИЙ</h3>
+                        <h3 class="personal-info-section-header-title">ЮРИЙ КУЗЬКИН</h3>
 
                     </div>
 
@@ -560,36 +558,21 @@
                 <div class="form-box-section">
                     <div class="col-md-6 col-sm-6 col-xs-12 ">
                         <div class="name-group">
-                            <input type="text" placeholder="Имя..." name="name" value=""/>
+                            <input type="text" placeholder="Ваше имя" name="name" value=""/>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="name-group">
-                            <input type="text" placeholder="Почта..." name="email" value=""/>
+                            <input type="text" placeholder="Ваша почта" name="email" value=""/>
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class=" sms-group">
-                            <textarea class="comment-post" placeholder="Сообщение..." name="comment" value=""></textarea>
+                            <textarea class="comment-post" placeholder="Сообщение" name="comment" value=""></textarea>
                         </div>
                     </div>
-
-                    <div class="col-md-12 col-sm-12 ">
-                        <div class="send-group">
-                            <div class="sms">
-                                <button id="modalBtn" class="buton-sms">Отправить</button>
-                                <div id="myModal" class="modal">
-                                  <div class="modal-content">
-                                      <span class="close">&times;</span>
-                                      <div class="modal-text">
-                                          <p class="modal-tnx">Спасибо за заявку!</p>
-                                            <p class="modal-connection">Мы с вами свяжемся.</p>  
-                                      </div>
-                                      
-                                  </div>
-                              </div>
-                            </div>
-                        </div>
+                    <div class="buton-send-container">
+                        <button class="buton-sms">Отправить</button>
                     </div>
                 </div>
             </div>
@@ -638,18 +621,18 @@
 </footer>
 
 
-<div class="hidden"></div>
+<!-- <div class="hidden"></div> -->
 <!-- Mandatory for Responsive Bootstrap Toolkit to operate -->
-<div class="device-xs visible-xs"></div>
+<!-- <div class="device-xs visible-xs"></div>
 <div class="device-sm visible-sm"></div>
 <div class="device-md visible-md"></div>
-<div class="device-lg visible-lg"></div>
+<div class="device-lg visible-lg"></div> -->
 
 
 <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 <script src="libs/jquery/jquery-1.11.1.min.js"></script>
 <script src="libs/fancybox/jquery.fancybox.pack.js"></script>
-<script src="js/common.js"></script>
+<script src="js/common-mini.js"></script>
 
 <!-- ISOTOPE -->
 <script src="assets/isotope.pkgd.min.js"></script>

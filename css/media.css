@@ -78,12 +78,13 @@
     font-size: 16px!important;
   }
   .personal-info-box p {
-    font-size: 12px!important;
+    font-size: 14px!important;
   }
   
   .social-hobby .social-hobby-list {
     padding: 0;
     margin: 0;
+    padding-top:5px;
   }
   .social-hobby .social-hobby-list .social-hobby-list-items:last-child {
     padding-bottom: 5px;

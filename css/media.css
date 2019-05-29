@@ -41,6 +41,9 @@
   .logo{
     width: 45px;
   }
+  .btn-top{
+    right: 20px!important;
+  }
   .thumb-container{
     margin:0 auto!important;
   }
@@ -174,6 +177,10 @@
     flex-wrap: wrap;
     justify-content: center;
   }
+  .btn-top{
+    right: 20px!important;
+  }
+
   .thumb-container{
     margin:0 auto!important;
   }

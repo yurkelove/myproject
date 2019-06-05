@@ -70,50 +70,18 @@ $(document).ready(function() {
     });
 
 
-	//Попап менеджер FancyBox
-	//Документация: http://fancybox.net/howto
-	//<a class="fancybox"><img src="image.jpg" /></a>
-	//<a class="fancybox" data-fancybox-group="group"><img src="image.jpg" /></a>
-	$(".fancybox").fancybox();
-
     //Mobile MENU
-	$(document).ready(function(){
-			var touch = $('.mobile-menu');
-		    var menu = $('.primary-nav');
-		 
-		    $(touch).on('click', function(e) {
-		        e.preventDefault();
-		        menu.slideToggle();
-		    });
-		    $(window).resize(function(){
-		        var wid = $(window).width();
-		        if(wid > 760 && menu.is(':hidden')) {
-		            menu.removeAttr('style');
-		        }
-		    });
-		    
-		});
-
-
-
-	//Modal
-    function modalBtn(){
+    $(function() {
+        $('.menu__icon').on('click', function() {
+          $(this).closest('.menu')
+            .toggleClass('menu_active');
+        });
         
-        var modal = document.getElementById('myModal');
-        var btn = document.getElementById('modalBtn');
-        var span = document.getElementsByClassName("close")[0];
-
-        btn.onclick = function(){
-           modal.style.display = "block";
-        }
-        span.onclick = function(){
-            modal.style.display = "none";
-        }
-        
-    }
-    
-    modalBtn();
-    
+        $('.menu__links-item').on('click', function() {
+          $(this).closest('.menu')
+            .removeClass('menu_active');
+        });
+      });
 
 
 });

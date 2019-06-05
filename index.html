@@ -23,7 +23,6 @@
 
 
 <section id="home" class="home-section">
-
     <header id="header">
         <div class="container">
             <div class="header-content">
@@ -31,27 +30,26 @@
                     <div class="navigation-bar-logo">
                         <a class="logo" href=""><img src="img/logo.png"></a>
                     </div>
-                    <div class="mobile-menu">
-                        <div class="mnu hidden-md hidden-lg">
-                            <a href="#" id="touch-menu ">Меню <span class="burger-menu"><i
-                                    class="fas fa-bars"></i></span></a>
-                        </div>
+                   
+                <div class="menu">
+                    <div class="menu__icon">
+                        <a href="#" class="menu-btn">
+                        <span class="menu-btn-icon"></span>
+                        </a>
                     </div>
-                    <div class="navigation-menu">
-                        <ul class="primary-nav clearfix">
-                            <li class="active-home"><a href="#home"><span class="nav-item-underline"></span>Главная</a>
-                            </li>
-                            <li><a href="#about"><span class="nav-item-underline"></span>О себе</a></li>
-                            <li><a href="#services"><span class="nav-item-underline"></span>Услуги</a></li>
-                            <li><a href="#skills"><span class="nav-item-underline"></span>Навыки</a></li>
-                            <li><a href="#portfolio"><span class="nav-item-underline"></span>Портфолио</a></li>
-                            <li><a href="#contact"><span class="nav-item-underline"></span>Контакты</a></li>
-                        </ul>
+                    <div class="menu__links">
+                    <ul class="primary-nav clearfix">
+                        <li class="active-home"><a href="#home"><span class="nav-item-underline"></span>Главная</a>
+                        </li>
+                        <li><a href="#about"><span class="nav-item-underline"></span>О себе</a></li>
+                        <li><a href="#services"><span class="nav-item-underline"></span>Услуги</a></li>
+                        <li><a href="#skills"><span class="nav-item-underline"></span>Навыки</a></li>
+                        <li><a href="#portfolio"><span class="nav-item-underline"></span>Портфолио</a></li>
+                        <li><a href="#contact"><span class="nav-item-underline"></span>Контакты</a></li>
+                    </ul>
                     </div>
-
-
+                </div>
                 </nav>
-
             </div>
         </div>
     </header>
@@ -111,7 +109,7 @@
                     <div class="personal-info-section-header">
                         <span class="personal-info-section-header-icon my-icon"> <span
                                 class="icon-gears-in-bald-head-side-view"></span></span>
-                        <h3 class="personal-info-section-header-title">КУЗЬКИН ЮРИЙ</h3>
+                        <h3 class="personal-info-section-header-title">ЮРИЙ КУЗЬКИН</h3>
 
                     </div>
 
@@ -121,7 +119,7 @@
                         <p><span class="color-title">Город: </span> Чернигов.</p><br>
                         <p><span class="color-title">Образование: </span> Высшее, ЧНТУ, Экономическая-кибернетика. </p>
                         <br>
-                        <p><span class="color-title">Навыки: </span> Html5, Css3, JavaScript, React, Redux, JQuery, Vue, Bem, Less/Sass, Git, Webpack, Bootstrap.</p><br>
+                        <p><span class="color-title">Навыки: </span> Html5, Css3, JavaScript, React, Redux, JQuery, Vue, Wordpress, Bem, Less/Sass, Git, Webpack,  Bootstrap.</p><br>
                         <p><span class="color-title">Знания программ: </span> Photoshop, Visual Studio, Web Storm, Sublime Text, Microsoft Word, Excel, PowerPoint, Open Server, Avocode.</p>
                         <br>
                         <p><span class="color-title">Личные качества: </span> Коммуникабельность, целеустремленность , активность‚ доброжелательность‚ аккуратность, обучаемость, ответственность, стрессоустойчивость.</p>
@@ -280,6 +278,7 @@
                         </div>
 
                     </div>
+                    
                     <div class="col-md-3 col-sm-6">
                         <div class="loading-item wow fadeInUpBig" data-wow-offset="150" data-wow-duration="1.4s"
                              data-wow-durationdata-wow-delay="0s">
@@ -297,8 +296,8 @@
                     <div class="col-md-3 col-sm-6">
                         <div class="loading-item wow fadeInUpBig" data-wow-offset="150" data-wow-duration="1.6s"
                              data-wow-durationdata-wow-delay="0s">
-                            <div class="c100 p55 ">
-                                <span>55%</span>
+                            <div class="c100 p75 ">
+                                <span>75%</span>
                                 <div class="slice">
                                     <div class="bar"></div>
                                     <div class="fill"></div>
@@ -313,14 +312,14 @@
                         <div class="col-md-3 col-sm-6 second-row">
                         <div class="loading-item wow fadeInUpBig" data-wow-offset="150" data-wow-duration="1.2s"
                              data-wow-durationdata-wow-delay="0s">
-                            <div class="c100 p60 ">
-                                <span>60%</span>
+                            <div class="c100 p70 ">
+                                <span>70%</span>
                                 <div class="slice">
                                     <div class="bar"></div>
                                     <div class="fill"></div>
                                 </div>
                             </div>
-                            <p>Webpack</p>
+                            <p>Vue/Vuex</p>
                         </div>
 
                     </div>
@@ -334,8 +333,7 @@
                                     <div class="fill"></div>
                                 </div>
                             </div>
-                            <p>GIT</p>
-
+                            <p>WordPress</p>
                         </div>
 
                     </div>
@@ -560,36 +558,21 @@
                 <div class="form-box-section">
                     <div class="col-md-6 col-sm-6 col-xs-12 ">
                         <div class="name-group">
-                            <input type="text" placeholder="Имя..." name="name" value=""/>
+                            <input type="text" placeholder="Ваше имя" name="name" value=""/>
                         </div>
                     </div>
                     <div class="col-md-6 col-sm-6 col-xs-12">
                         <div class="name-group">
-                            <input type="text" placeholder="Почта..." name="email" value=""/>
+                            <input type="text" placeholder="Ваша почта" name="email" value=""/>
                         </div>
                     </div>
                     <div class="col-md-12 col-sm-12 col-xs-12">
                         <div class=" sms-group">
-                            <textarea class="comment-post" placeholder="Сообщение..." name="comment" value=""></textarea>
+                            <textarea class="comment-post" placeholder="Сообщение" name="comment" value=""></textarea>
                         </div>
                     </div>
-
-                    <div class="col-md-12 col-sm-12 ">
-                        <div class="send-group">
-                            <div class="sms">
-                                <button id="modalBtn" class="buton-sms">Отправить</button>
-                                <div id="myModal" class="modal">
-                                  <div class="modal-content">
-                                      <span class="close">&times;</span>
-                                      <div class="modal-text">
-                                          <p class="modal-tnx">Спасибо за заявку!</p>
-                                            <p class="modal-connection">Мы с вами свяжемся.</p>  
-                                      </div>
-                                      
-                                  </div>
-                              </div>
-                            </div>
-                        </div>
+                    <div class="buton-send-container">
+                        <button class="buton-sms">Отправить</button>
                     </div>
                 </div>
             </div>

@@ -38,11 +38,6 @@
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-  .btn-top {
-    right: 20px!important;
-    width: 40px!important;
-    height: 40px!important;
-  }
   .btn-top{
     right: 20px!important;
   }

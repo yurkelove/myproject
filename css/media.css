@@ -156,6 +156,9 @@
   .skills-section h2 {
     font-size: 28px;
   }
+  .contact-icon{
+    padding-bottom: 15px!important;
+  }
   .contacts-icons-list .contact-icon p {
     padding-bottom: 15px!important;
   }
